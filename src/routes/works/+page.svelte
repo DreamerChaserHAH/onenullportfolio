@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Works</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
@@ -62,7 +62,7 @@
 					<div class="text-xl font-normal leading-7 text-black font-space">Need a successful project?</div>
 					<div class="text-4xl font-bold leading-10 uppercase text-gray-950 font-gosha">Lets Work Together</div>
 				</div>
-				<a href="../contact">
+				<a class="z-50 " href="../contact">
 					<div class="flex flex-col items-center justify-start h-20 w-60 gap-9">
 						<div class="w-60 h-20 px-10 py-5 cursor-pointer rounded-[51px] border border-cyan-400 justify-center items-center gap-2.5 inline-flex">
 							<svg xmlns="http://www.w3.org/2000/svg" width="43" height="32" viewBox="0 0 43 32" fill="none" class="transition duration-500 group-hover:translate-x-12 ">

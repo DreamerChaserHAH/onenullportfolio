@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Works</title>
 	<meta name="Home" content="oneNull Portfolio" />
 </svelte:head>
 

@@ -29,7 +29,7 @@
 </div>
 <header  class={`h-full ${isMenuOpen ? 'fixed' : 'hidden'} duration-300 transition-all lg:flex lg:fixed h-screen overflow-hidden w-36 bg-primary z-20`}>
 	<nav>
-		<div class="flex-col justify-around h-full px-4 lg:flex">
+		<div class="flex-col justify-start h-full px-4 lg:flex">
 			<div class="flex flex-col gap-1 pt-10">
 				<a  href="/" class="mt-4 cursor-pointer min-w-4 mb-9">
 					<picture>
@@ -52,7 +52,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="flex flex-col items-start justify-between gap-12 ">
+			<!-- <div class="flex flex-col items-start justify-between gap-12 ">
 				<div class="flex flex-col items-start justify-between w-10 space-y-5 ">
 					<a href="/#">
 						<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
@@ -75,7 +75,7 @@
 						</svg>
 					</a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</nav>
 </header>

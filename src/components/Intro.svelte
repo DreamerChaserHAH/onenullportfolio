@@ -24,6 +24,7 @@
 		  <span style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" class="tracking-tighter text-gray-950 lg:text-5xl sm:text-6xl leading-4 text-6xl font-extrabold uppercase md:leading-[72.50px]"> - We're <br> </span>
 		  <span class="text-6xl font-extrabold leading-tight tracking-tighter text-transparent uppercase lg:text-5xl sm leading-4:text-6xl bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500 stroke">Innovators</span>
 		</div>
+		<!-- spooky logo -->
 		<div class="relative w-full ">
 		  <Heart />
 		  <img class="absolute -right-[5%] bottom-[30%] -z-10" alt="404face" width="233" height="210" src={Spooky} />
@@ -34,10 +35,9 @@
 	  </div>
 	  <div class="relative mt-5 ml-4 overflow-hidden w-[500px] h-[350px] hidden md:flex ">
 		<div class="w-full h-full clip-pentagon "></div>
-			<!-- <div class="absolute top-0 left-0 w-full h-full bg-slate-50 small-pentagon"></div> -->
 			<div class="absolute top-[10%] left-[2%] video-pentagon w-[480px] h-[280px]">
-				<video class="w-full h-full bg-cover video-fit" src={video} autoplay loop >
-				<track kind="captions" />
+				<!-- svelte-ignore a11y-media-has-caption -->
+				<video class="hidden w-full h-full bg-cover video-fit md:block" src={video} autoplay loop >
 				</video>
 			</div>
 	   </div>

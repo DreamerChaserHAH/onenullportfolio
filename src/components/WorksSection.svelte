@@ -5,32 +5,32 @@
 
 </script>
 
-<section class="flex flex-col items-center justify-center w-full h-screen space-y-6 md:py-6">
+<section class="flex flex-col items-center justify-center w-full space-y-6 md:py-6">
 	<div class="text-4xl font-bold leading-10 tracking-widest text-gray-950 font-gosha">WORKS</div>
 	<div class="flex items-center justify-center md:h-[380px] h-[200px] space-x-6">
-		<div class="w-[25%] h-[80%] rounded-2xl shadow-lg border-t border-black bg-white border-opacity-30 backdrop-blur-xl inline-flex flex-col items-center justify-center gap-5 p-5">
-			<img alt="brnyr" class="self-stretch grow shrink basis-0 md:rounded-2xl" src={reviewImg} />
+		<div class="w-[25%] h-[80%] rounded-2xl shadow-lg border-t border-black bg-white border-opacity-30 backdrop-blur-xl inline-flex flex-col items-center justify-center gap-5 pb-2 sm:p-5">
+			<img alt="brnyr" class="self-stretch grow shrink basis-0 rounded-2xl sm:w-full" src={reviewImg} />
 			<div class="inline-flex items-center self-stretch justify-start gap-5">
 			  <div class="inline-flex flex-col items-start justify-center gap-1 grow shrink basis-0">
-				<div class="self-stretch text-sm font-bold text-black md:text-xl font-space">NFT Web</div>
+				<div class="self-stretch mx-auto text-sm font-bold text-black sm:mx-0 md:text-xl font-space">NFT Web</div>
 			  </div>
 			</div>
 		</div>
 		  <div class="w-[30%] h-[100%] rounded-2xl shadow bg-gradient-to-r from-[#9C37FD] to-[#15BFFD] flex justify-center items-center">
-			<div class="w-[98%] h-[98%] rounded-2xl bg-gradient-to-br from-white to-white backdrop-blur-xl inline-flex flex-col items-center justify-center gap-5 p-5">
-			  <img alt="brnyr" class="self-stretch grow shrink basis-0 md:rounded-2xl" src={reviewImg} />
+			<div class="w-[98%] h-[98%] rounded-2xl bg-gradient-to-br from-white to-white backdrop-blur-xl inline-flex flex-col items-center justify-center gap-5  pb-2 sm:p-5">
+			  <img alt="brnyr" class="self-stretch grow shrink basis-0 sm:w-full rounded-2xl" src={reviewImg} />
 			  <div class="inline-flex items-center self-stretch justify-start gap-5">
 				<div class="inline-flex flex-col items-start justify-center gap-1 grow shrink basis-0">
-				  <div class="self-stretch text-sm font-bold text-black md:text-xl font-space">Main Web</div>
+				  <div class="self-stretch mx-auto text-sm font-bold text-black sm:mx-0 md:text-xl font-space">Main Web</div>
 				</div>
 			  </div>
 			</div>
 		  </div>
-		<div class="w-[25%] h-[80%] rounded-2xl shadow-lg border-t border-black bg-white border-opacity-30 backdrop-blur-xl inline-flex flex-col items-center justify-center gap-5 p-5">
-			<img alt="brnyr" class="self-stretch grow shrink basis-0 md:rounded-2xl" src={reviewImg} />
+		  <div class="w-[25%] h-[80%] rounded-2xl shadow-lg border-t border-black bg-white border-opacity-30 backdrop-blur-xl inline-flex flex-col items-center justify-center gap-5  pb-2 sm:p-5">
+			<img alt="brnyr" class="self-stretch grow shrink basis-0 rounded-2xl sm:w-full" src={reviewImg} />
 			<div class="inline-flex items-center self-stretch justify-start gap-5">
 			  <div class="inline-flex flex-col items-start justify-center gap-1 grow shrink basis-0">
-				<div class="self-stretch text-sm font-bold text-black md:text-xl font-space">NFT Web</div>
+				<div class="self-stretch mx-auto text-sm font-bold text-black sm:mx-0 md:text-xl font-space">NFT Web</div>
 			  </div>
 			</div>
 		</div>

@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Contact</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
@@ -31,35 +31,35 @@
 					<div class="w-6 h-0.5 bg-black"></div>
 					<div class="text-xs font-bold leading-3 tracking-widest text-black uppercase font-gosha">Contact</div>
 				</div>
-				<div class="md:text-6xl text-3xl font-bold leading-[64px] pt-4 md:tracking-widest uppercase text-gray-950 font-gosha">Get in  touch</div>
+				<div class="md:text-6xl text-2xl font-bold leading-[64px] pt-4 md:tracking-widest uppercase text-gray-950 font-gosha">Get in  touch</div>
 			</div>
 			<div class="flex flex-col justify-start gap-8 md:pt-11">
 				<div class="flex gap-5">
-					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 md:w-10 md:h-10" viewBox="0 0 30 30" fill="none">
 						<circle cx="15" cy="15" r="15" fill="#15BFFD" fill-opacity="0.19"/>
 						<path d="M15 16.1393C16.305 16.1393 17.5 15.2041 17.5 13.9114C17.5 12.6188 16.305 11.6836 15 11.6836C13.695 11.6836 12.5 12.6188 12.5 13.9114C12.5 15.2041 13.695 16.1393 15 16.1393ZM15 7.5C19.0114 7.5 22.5 10.1381 22.5 14.0842C22.5 15.3078 21.9532 16.6978 20.7651 18.2673C19.5793 19.8338 17.7834 21.5407 15.3587 23.3871C15.1569 23.5376 14.8333 23.5376 14.6314 23.3872C12.2118 21.5408 10.4184 19.834 9.23381 18.2675C8.04686 16.6979 7.5 15.3079 7.5 14.0842C7.5 10.1381 10.9886 7.5 15 7.5Z" stroke="#15BFFD"/>
 					</svg>
 					<div class="text-base font-normal text-black text-opacity-80 font-space">Lorem ipsum dolor sit amet consectetur.</div>
 				</div>
 				<div class="flex gap-5">
-					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+					<svg xmlns="http://www.w3.org/2000/svg" class="md:w-7 w-7 h-7 md:h-7" viewBox="0 0 30 30" fill="none">
 						<circle cx="15" cy="15" r="15" fill="#F78787" fill-opacity="0.33"/>
 						<image x="0" y="0" width="30" height="30" href={phonesvg} />	
 					</svg>
 					<div class="text-black text-opacity-80 text-base font-normal font-['Inter']">+92 (32) 466 67 00</div>
 				</div>
 				<div class="flex gap-5">
-					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+					<svg xmlns="http://www.w3.org/2000/svg" class="md:w-7 w-7 h-7 md:h-7" viewBox="0 0 30 30" fill="none">
 						<circle cx="15" cy="15" r="15" fill="#9277FF" fill-opacity="0.33"/>
 						<image x="2.5" y="2.5" width="25" height="25" href={emailsvg} />	
 					</svg>
 					<div class="flex flex-col items-start justify-start gap-4 font-space">
-						<div class="text-sm font-bold text-zinc-900 ">Professional Business Inquiries</div>
-						<div class="text-sm font-normal text-black text-opacity-80">Sales@onenullsoftwares.com</div>
-						<div class="text-sm font-bold text-zinc-900 ">General Inquiries</div>
-						<div class="text-sm font-normal text-black text-opacity-80 ">Contact@onenullsoftwares.com</div>
-						<div class="text-sm font-bold text-zinc-900 ">Maintenance And Support</div>
-						<div class="text-sm font-normal text-black text-opacity-80 ">Support@onenullsoftwares.com</div>
+						<div class="text-xs font-bold md:text-sm text-zinc-900 ">Professional Business Inquiries</div>
+						<div class="text-xs font-normal text-black md:text-sm text-opacity-80">Sales@onenullsoftwares.com</div>
+						<div class="text-xs font-bold md:text-sm text-zinc-900 ">General Inquiries</div>
+						<div class="text-xs font-normal text-black md:text-sm text-opacity-80 ">Contact@onenullsoftwares.com</div>
+						<div class="text-xs font-bold md:text-sm text-zinc-900 ">Maintenance And Support</div>
+						<div class="text-xs font-normal text-black md:text-sm text-opacity-80 ">Support@onenullsoftwares.com</div>
 					</div>
 				</div>
 			</div>
@@ -107,7 +107,7 @@
 					</div>
 				</div>
 				<div class="flex items-center justify-start gap-10 md:w-64">
-					<svg xmlns="http://www.w3.org/2000/svg" width="34" height="33" viewBox="0 0 34 33" fill="none">
+					<svg xmlns="http://www.w3.org/2000/svg"width="34" height="33" viewBox="0 0 34 33" fill="none">
 						<path d="M23.9513 2.96324C25.818 2.9686 27.6068 3.68457 28.9268 4.95477C30.2468 6.22498 30.9908 7.94621 30.9964 9.74254V23.2997C30.9908 25.096 30.2468 26.8172 28.9268 28.0875C27.6068 29.3577 25.818 30.0736 23.9513 30.079H9.86265C7.9959 30.0736 6.20719 29.3577 4.88719 28.0875C3.56719 26.8172 2.82315 25.096 2.81758 23.2997V9.74254C2.82315 7.94621 3.56719 6.22498 4.88719 4.95477C6.20719 3.68457 7.9959 2.9686 9.86265 2.96324H23.9513ZM23.9513 0.251953H9.86265C4.43808 0.251953 0 4.52261 0 9.74254V23.2997C0 28.5196 4.43808 32.7903 9.86265 32.7903H23.9513C29.3759 32.7903 33.8139 28.5196 33.8139 23.2997V9.74254C33.8139 4.52261 29.3759 0.251953 23.9513 0.251953Z" fill="#15BFFD"/>
 						<path d="M26.0643 9.74319C25.6463 9.74319 25.2377 9.62392 24.8902 9.40046C24.5426 9.177 24.2718 8.85939 24.1118 8.48779C23.9518 8.11619 23.91 7.70729 23.9915 7.3128C24.0731 6.91832 24.2744 6.55596 24.5699 6.27154C24.8655 5.98713 25.2421 5.79345 25.652 5.71498C26.062 5.63651 26.4869 5.67678 26.8731 5.83071C27.2592 5.98463 27.5893 6.24529 27.8215 6.57972C28.0537 6.91415 28.1777 7.30733 28.1777 7.70955C28.1783 7.97677 28.124 8.24148 28.018 8.48847C27.912 8.73546 27.7564 8.95988 27.56 9.14883C27.3637 9.33779 27.1304 9.48756 26.8738 9.58956C26.6171 9.69156 26.342 9.74377 26.0643 9.74319ZM16.9066 11.0985C18.0213 11.0985 19.1109 11.4165 20.0378 12.0125C20.9646 12.6084 21.6869 13.4554 22.1135 14.4464C22.5401 15.4373 22.6517 16.5278 22.4342 17.5798C22.2168 18.6318 21.68 19.5982 20.8918 20.3566C20.1036 21.1151 19.0994 21.6316 18.0061 21.8409C16.9129 22.0501 15.7797 21.9427 14.7498 21.5322C13.72 21.1218 12.8398 20.4266 12.2205 19.5348C11.6012 18.6429 11.2707 17.5944 11.2707 16.5218C11.2723 15.0839 11.8666 13.7053 12.9232 12.6886C13.9798 11.6719 15.4124 11.1 16.9066 11.0985ZM16.9066 8.38719C15.2347 8.38719 13.6003 8.86427 12.2101 9.75811C10.8199 10.652 9.73644 11.9224 9.09661 13.4088C8.45679 14.8952 8.28938 16.5308 8.61556 18.1087C8.94174 19.6867 9.74686 21.1361 10.9291 22.2738C12.1113 23.4114 13.6176 24.1862 15.2574 24.5C16.8972 24.8139 18.5969 24.6528 20.1416 24.0371C21.6863 23.4215 23.0065 22.3788 23.9354 21.0411C24.8643 19.7034 25.3601 18.1306 25.3601 16.5218C25.3601 14.3643 24.4695 12.2953 22.8841 10.7698C21.2988 9.24422 19.1486 8.38719 16.9066 8.38719Z" fill="#15BFFD"/>
 					</svg>
