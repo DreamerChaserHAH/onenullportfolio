@@ -60,7 +60,7 @@
 			<div class="flex flex-col items-center justify-between h-[250px] ">
 				<div class="flex flex-col items-center justify-center h-24 gap-6 whitespace-nowrap w-96">
 					<div class="text-xl font-normal leading-7 text-black font-space">Need a successful project?</div>
-					<div class="text-4xl font-bold leading-10 uppercase text-gray-950 font-gosha">Lets Work Together</div>
+					<div class="z-50 text-4xl font-bold leading-10 text-center uppercase whitespace-normal  md:whitespace-nowrap text-gray-950 font-gosha">Lets Work Together</div>
 				</div>
 				<a class="z-50 " href="../contact">
 					<div class="flex flex-col items-center justify-start h-20 w-60 gap-9">

@@ -2,17 +2,17 @@
 	import onenull from '$lib/images/onenullshape.png';
 </script>
 
-<section class="flex justify-between w-full lg:px-[10%] py-24 mx-auto items-between ">
-	<div class="flex flex-col items-start justify-between ">
-		<div>
-			<div class="text-xl font-bold md:text-4xl text-gray-950 font-gosha">Why OneNull</div>
-			<div class="mt-4 text-base font-normal text-black md:text-2xl font-space">
+<section class="px-6 md:px-0 flex md:flex-row flex-col  justify-between w-full lg:px-[10%] py-24 mx-auto items-between ">
+	<div class="flex flex-row-reverse items-start justify-between md:flex-col ">
+		<div class="flex flex-col items-end md:items-start">
+			<div class="text-lg font-bold md:text-4xl text-gray-950 font-gosha">Why OneNull</div>
+			<div class="mt-4 text-base font-normal text-black texte md:text-2xl font-space">
 				Lorem ipsum dolor sit met ut sem adipiscing elit. Suspendisse varius enim in tristique.
 			</div>
 		</div>
-		<img alt="onenull" class="w-60 h-60 md:w-80 md:h-80" src={onenull} />
+		<img alt="onenull" class="w-2/5 mr-7 md:mr-0 h-2/5 md:w-80 md:h-80" src={onenull} />
 	</div>
-	<div class=" flex flex-col justify-between items-start gap-y-3.5 ">
+	<div class="md:mt-0 mt-5 flex flex-col justify-between items-start gap-y-3.5 ">
 		<div class=" md:w-[458px] bggradient rounded-lg p-[3px]">
 			<div class="w-full h-full px-3 md:px-7 py-7 bg-[#CEF2FF] rounded-lg flex-col justify-start items-start gap-2.5 inline-flex">
 				<div class=" flex-col justify-start items-start gap-3.5 flex">

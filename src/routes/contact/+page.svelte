@@ -99,7 +99,7 @@
 				</svg>
 				<div class="text-xl font-bold text-black transition font-gosha group-hover:opacity-0">Submit</div>
 			</button>
-			<div class="inline-flex flex-col items-start justify-start gap-5 md:w-64">
+			<div class="inline-flex flex-col items-center gap-5 sm:items-start sm:justify-start md:w-64">
 				<div class="flex flex-col items-start justify-center h-full gap-2.5">
 					<div class="flex items-center justify-center h-8 px-2 bg-cyan-400 bg-opacity-20 rounded-tl-xl rounded-bl-xl">
 						<div class="text-3xl font-bold leading-10 whitespace-nowrap text-gray-950 font-gosha">Follow us</div>
